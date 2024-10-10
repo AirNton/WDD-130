@@ -1,0 +1,41 @@
+body {
+    background-color: lightskyblue;
+    min-width: none;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#back{
+    background-color: azure;
+    border: 5px dashed;
+}
+
+#title {
+    text-align: center;
+}
+
+#quote_1 {
+    text-align: center;
+}
+
+#name {
+    text-align: center;
+}
+
+#list {
+    font-size: 15px;
+}
+
+#img_div {
+    text-align: center;
+}
+
+#img{
+    width: 25%;
+}
+
+#bottom_text {
+    margin: 10px auto;
+    text-align: center;
+
+}
