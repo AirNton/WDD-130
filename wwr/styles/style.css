@@ -1,6 +1,12 @@
 body {
     background-color: #416788;
-    
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -9,14 +15,20 @@ header {
 }
 
 #content {
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
 
+}
+
+#logo-link {
+    padding-top: 5px;
 }
 
 nav a{
     text-align: center;
     color: black;
+    padding: 35px;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -66,6 +78,10 @@ section {
 
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #E0E0E2;
@@ -76,7 +92,10 @@ section {
     background-color: #b7b5d0;
     color: black;
     text-decoration: none;
-   
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -89,6 +108,10 @@ section {
 .join {
     background-color: #b7b5d0;
     color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 
@@ -98,35 +121,67 @@ section {
 
 }
 
+.mountains {
+    margin-top: 100px;
+}
+
 .msg {
     background-color: #b7b5d0;
     color: black;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+
 }
 
 footer {
     background-color: #7389ae;
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
   
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
 }
 
 footer p {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: .8em;
+    
 }
 
 footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .home-title {
     color: black;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h2 {
     color: black;
-
+    font-family: "Afacad Flux", sans-serif;
+    margin: 0;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
