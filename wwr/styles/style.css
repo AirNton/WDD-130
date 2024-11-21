@@ -264,7 +264,7 @@ h2 {
     width: 80px;
     padding-top: 10px;
 }
-
+ 
 #customer-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -421,4 +421,3 @@ h2 {
         margin-top: 25px;
     }
 }
-            
