@@ -1,0 +1,133 @@
+header {
+    background-color: #e0e0e2;
+    display: grid;
+    grid-template-columns: 150px auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+
+nav a {
+    padding-top: 65px;
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    }
+    
+    #song1 { 
+        grid-column: 1/3;
+        grid-row: 1/2;
+        background-color: #B57D86;
+    
+    }
+    #king { 
+        grid-column: 3/4;
+        grid-row: 1/2;
+        
+    }
+
+    #crimson{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    #music2 { 
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+    
+    #crew { 
+        grid-column: 1/2;
+        grid-row: 2/3;
+        max-width: 100%;    
+    }
+
+    #big_steppa {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        
+    }
+
+    #kendrick {
+        max-width: 100%;
+        max-height: 100%;
+    } 
+
+    #igor {
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+
+    #tyler {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        max-width: 100%;  
+    }
+#footer {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        text-align: center;
+}
+        
+    #copy { grid-area: 1 / 1 / 2 / 2; }
+    #site { grid-area: 1 / 2 / 2 / 3; }
+    #album { grid-area: 1 / 3 / 2 / 4; }
+    #artists { grid-area: 1 / 4 / 2 / 5; }
+    .div5 { grid-area: 1 / 5 / 2 / 6; }
+    #insta { 
+        grid-column: 1/2;
+        grid-row: 2/3;
+     }
+    #face { grid-area: 2 / 3 / 3 / 4; }
+    #x { grid-area: 2 / 5 / 3 / 6; }
+
+    #artist {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 10px;
+        }
+        
+        #tooth { 
+            grid-area: 1 / 2 / 3 / 4;
+            max-width: 100%;
+         }
+        #bear { grid-area: 3 / 1 / 4 / 5; }
+        #dc { grid-area: 4 / 2 / 6 / 4; 
+            max-width: 100%;
+            max-height: 100%;
+        }
+        #ac { grid-area: 6 / 1 / 7 / 5; }
+
+
+#beartooth {
+    width: 100%;
+    height: 100%;
+    padding-top: auto;
+
+}
+
