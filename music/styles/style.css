@@ -34,6 +34,13 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    background-color: #7389ae;
+    color: black;
+    text-decoration: none;
+
+}
+
 .icon {
     background-color: black;
     width: 100%;
@@ -125,7 +132,7 @@ main {
     #insta { 
         grid-column: 1/2;
         grid-row: 2/3;
-     }
+    }
     #face { grid-area: 2 / 3 / 3 / 4; }
     #x { grid-area: 2 / 5 / 3 / 6; }
 
@@ -133,7 +140,7 @@ main {
 #artist {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(4, minmax(550px, auto));
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
@@ -142,6 +149,8 @@ main {
 #tooth {
     grid-area: 1 / 2 / 2 / 3;
     padding-top: 10px;
+    position: relative;
+    top: 20px;
 
 }
 #bear { 
@@ -155,14 +164,14 @@ main {
     grid-area: 3 / 2 / 4 / 3;
     width: 100%;
     height: auto;
+    position: relative;
+    top: 150px;
 }
 #ac { 
     grid-area: 4 / 1 / 5 / 4;
     padding: 10px;
 
 }
-
-
 
 #artist {
     padding: 10px;
@@ -179,6 +188,24 @@ main {
 .checked {
     color: orange;
     
-  }
-  
-  
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}

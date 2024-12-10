@@ -6,39 +6,14 @@
     <title>Best Music</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 <body>
-
     <div class="popup" id="myPopup">
         <div class="popup-content">
           <p>AD!!!!!!!!!!!!</p>
           <button onclick="closePopup()">Close</button>
         </div>
       </div>
-    
-      <style>
-        .popup {
-          display: none;
-          position: fixed;
-          z-index: 1;
-          left: 0;
-          top: 0;
-          width: 100%;
-          height: 100%;
-          overflow: auto;
-          background-color: rgba(0, 0, 0, 0.4);
-        }
-    
-        .popup-content {
-          background-color: #fefefe;
-          margin: 15% auto;
-          padding: 20px;
-          border: 1px solid #888;
-          width: 30%;
-        }
-      </style>
-    
       <script>
         function openPopup() {
           document.getElementById("myPopup").style.display = "block";
@@ -48,7 +23,7 @@
           document.getElementById("myPopup").style.display = "none";
         }
     
-        setInterval(openPopup, 300000);
+        setInterval(openPopup, 30000);
       </script>
       
 
