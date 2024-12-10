@@ -8,6 +8,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div class="popup" id="myPopup">
+        <div class="popup-content">
+          <p>AD!!!!!!!!!!!!</p>
+          <button onclick="closePopup()">Close</button>
+        </div>
+      </div>
+      <script>
+        function openPopup() {
+          document.getElementById("myPopup").style.display = "block";
+        }
+    
+        function closePopup() {
+          document.getElementById("myPopup").style.display = "none";
+        }
+    
+        setInterval(openPopup, 30000);
+      </script>
     <div id="content">
         <header>
             <a id="logo-link" href="index.html">
